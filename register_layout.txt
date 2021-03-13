@@ -1,0 +1,73 @@
+MEMORY MAP - SOUND REGS 0x4000:
+
+64 * 0x20 bytes
+
+0x0:
+    0x80 = init
+    0x40 = release
+    0x04 = attack
+    0x03 = decay
+    0x02 = sustain
+    0x01 = release
+    0x00 = off
+
+0x1: key
+0x2: left volume
+0x3: right volume
+
+0x4:
+    0x0 = noise
+    0x1 = wave
+0x5: owner
+0x6: velocity
+0x7: envelope level
+
+0x8: freq * 0x1000
+
+0xC: adsr
+
+0x10: wave (16 bytes)
+
+
+
+MEMORY MAP - UART INTERFACE - REGS 0x3000:
+
+0x0: rdata
+0x4: data_available
+
+
+
+
+
+MEMORY MAP - RAM MIDI STATE 0x0:
+midi channel state:
+
+16 * 0x10 bytes
+
+0x0: midi program
+0x1: modulation (CC 1)
+0x2: volume     (CC 7)
+0x3: pan        (CC 10)
+0x4: expression (CC 11)
+0x5: RPN LSB    (CC 100)
+0x6: RPN MSB    (CC 101)
+0x7: bend range
+0x8: pitch bend (2 bytes)
+
+
+MEMORY MAP - PATCH MEM 0x1000:
+
+128 * {
+    1 byte type: 0 = noise, 1 = wave
+    3 bytes dummy
+    4 bytes adsr
+    16 bytes wave
+} midi programs
+
+128 * {
+    1 byte type: 0 = noise, 1 = wave
+    1 byte key
+    2 bytes dummy
+    4 bytes adsr
+    16 bytes wave
+} drum programs

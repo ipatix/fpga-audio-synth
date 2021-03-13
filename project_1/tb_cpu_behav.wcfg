@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="264989895000fs"></ZoomStartTime>
+      <ZoomEndTime time="265137895001fs"></ZoomEndTime>
+      <Cursor1Time time="265035273000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="63" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/clk_48">
+      <obj_property name="ElementShortName">clk_48</obj_property>
+      <obj_property name="ObjectShortName">clk_48</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/gpi">
+      <obj_property name="ElementShortName">gpi[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gpi[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/gpo">
+      <obj_property name="ElementShortName">gpo[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gpo[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_status[0]">
+      <obj_property name="ElementShortName">[0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_status[0][5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_left_vol[0]">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_left_vol[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_right_vol[0]">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_right_vol[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_freq[0]">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_freq[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_attack[0]">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_attack[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_decay[0]">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_decay[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_sustain[0]">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_sustain[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_release[0]">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_release[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/reg_key[0]">
+      <obj_property name="ElementShortName">[0][6:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_key[0][6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/h_reg_phase[0]">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">h_reg_phase[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/h_reg_env_level[0]">
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">h_reg_env_level[0][15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/h_reg_env_countdown[0]">
+      <obj_property name="ElementShortName">[0][9:0]</obj_property>
+      <obj_property name="ObjectShortName">h_reg_env_countdown[0][9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/render_state">
+      <obj_property name="ElementShortName">render_state</obj_property>
+      <obj_property name="ObjectShortName">render_state</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/current_channel">
+      <obj_property name="ElementShortName">current_channel</obj_property>
+      <obj_property name="ObjectShortName">current_channel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/current_sample">
+      <obj_property name="ElementShortName">current_sample[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_sample[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/current_volume_left">
+      <obj_property name="ElementShortName">current_volume_left[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_volume_left[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/current_volume_right">
+      <obj_property name="ElementShortName">current_volume_right[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_volume_right[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/current_level_left">
+      <obj_property name="ElementShortName">current_level_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">current_level_left[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/current_level_right">
+      <obj_property name="ElementShortName">current_level_right[15:0]</obj_property>
+      <obj_property name="ObjectShortName">current_level_right[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/audio_fpga_to_dac_l">
+      <obj_property name="ElementShortName">audio_fpga_to_dac_l[15:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_fpga_to_dac_l[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/audio_synth_instance/audio_fpga_to_dac_r">
+      <obj_property name="ElementShortName">audio_fpga_to_dac_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_fpga_to_dac_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/wr_addr">
+      <obj_property name="ElementShortName">wr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/wr_data">
+      <obj_property name="ElementShortName">wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/byte_write">
+      <obj_property name="ElementShortName">byte_write</obj_property>
+      <obj_property name="ObjectShortName">byte_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/imem_rd_addr">
+      <obj_property name="ElementShortName">imem_rd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imem_rd_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/imem_rd_data">
+      <obj_property name="ElementShortName">imem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imem_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/id_instruction">
+      <obj_property name="ElementShortName">id_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/id_mem_write">
+      <obj_property name="ElementShortName">id_mem_write</obj_property>
+      <obj_property name="ObjectShortName">id_mem_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/rf_instance/registers">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/rf_out_reg_b">
+      <obj_property name="ElementShortName">rf_out_reg_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_out_reg_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/ex_rf_out_reg_b">
+      <obj_property name="ElementShortName">ex_rf_out_reg_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rf_out_reg_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group125">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/alu_ctrl">
+         <obj_property name="ElementShortName">alu_ctrl[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_ctrl[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/alu_input_a">
+         <obj_property name="ElementShortName">alu_input_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_input_a[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/alu_input_b">
+         <obj_property name="ElementShortName">alu_input_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_input_b[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/alu_output">
+         <obj_property name="ElementShortName">alu_output[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_output[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/dmem_rd_addr">
+      <obj_property name="ElementShortName">dmem_rd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_rd_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/dmem_rd_data">
+      <obj_property name="ElementShortName">dmem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/dmem_rd_en">
+      <obj_property name="ElementShortName">dmem_rd_en</obj_property>
+      <obj_property name="ObjectShortName">dmem_rd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/dmem_byte_read">
+      <obj_property name="ElementShortName">dmem_byte_read</obj_property>
+      <obj_property name="ObjectShortName">dmem_byte_read</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/read_select_byte">
+      <obj_property name="ElementShortName">read_select_byte</obj_property>
+      <obj_property name="ObjectShortName">read_select_byte</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/read_select_byte_addr">
+      <obj_property name="ElementShortName">read_select_byte_addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_select_byte_addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/mem_alu_output">
+      <obj_property name="ElementShortName">mem_alu_output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_alu_output[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/mem_write_register">
+      <obj_property name="ElementShortName">mem_write_register[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_write_register[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/mem_reg_write">
+      <obj_property name="ElementShortName">mem_reg_write</obj_property>
+      <obj_property name="ObjectShortName">mem_reg_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/ex_reg_rs">
+      <obj_property name="ElementShortName">ex_reg_rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_reg_rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/ex_reg_rt">
+      <obj_property name="ElementShortName">ex_reg_rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_reg_rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/ex_reg_rd">
+      <obj_property name="ElementShortName">ex_reg_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_reg_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/uart_in">
+      <obj_property name="ElementShortName">uart_in</obj_property>
+      <obj_property name="ObjectShortName">uart_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/current_state">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/fifo_din">
+      <obj_property name="ElementShortName">fifo_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/fifo_wr_en">
+      <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/fifo_rd_en">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/fifo_dout">
+      <obj_property name="ElementShortName">fifo_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/fifo_empty">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/clock_count">
+      <obj_property name="ElementShortName">clock_count</obj_property>
+      <obj_property name="ObjectShortName">clock_count</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/bit_count">
+      <obj_property name="ElementShortName">bit_count</obj_property>
+      <obj_property name="ObjectShortName">bit_count</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/uart_shift_register">
+      <obj_property name="ElementShortName">uart_shift_register[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_shift_register[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/sysbus_instance/uart_if_instance/uart_in_buf_main">
+      <obj_property name="ElementShortName">uart_in_buf_main</obj_property>
+      <obj_property name="ObjectShortName">uart_in_buf_main</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/rf_wr_data">
+      <obj_property name="ElementShortName">rf_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_cpu/uut/wb_mem_to_reg">
+      <obj_property name="ElementShortName">wb_mem_to_reg</obj_property>
+      <obj_property name="ObjectShortName">wb_mem_to_reg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_cpu/uut/wb_alu_output">
+      <obj_property name="ElementShortName">wb_alu_output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_alu_output[31:0]</obj_property>
+   </wvobject>
+</wave_config>

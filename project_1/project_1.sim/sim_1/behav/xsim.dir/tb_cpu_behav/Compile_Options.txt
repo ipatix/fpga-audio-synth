@@ -1,0 +1,1 @@
+-wto "2542b03838a3417587951e72476c6853" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "fifo_generator_v13_0_0" -L "blk_mem_gen_v8_3_0" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "tb_cpu_behav" "xil_defaultlib.tb_cpu" "xil_defaultlib.glbl" -log "elaborate.log" 
